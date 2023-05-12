@@ -1,0 +1,63 @@
+@font-face {
+  font-family: Digit;
+  src: url(CursedTimerUlil-Aznm.ttf);
+}
+                
+
+body {
+    margin: 0;
+   padding: 0;
+   text-align: center;
+   color:white ;
+   box-sizing: border-box;
+   background:#212C44;
+  
+
+}
+
+.container {
+    display:flex;
+    justify-content:space-around;
+    height: 35vh;
+    
+   
+    
+    }
+#score-h, #score-g{
+    
+   font-family: 'digit',sans-serif; 
+    background: #0a0001;
+    font-size: 70px;
+    color: #F94F6D;
+    width: 100px;
+    margin: 10px;
+    padding-top:8px;
+
+    
+}
+
+button {
+    font-family: 'digit', sans-serif;
+      cursor:pointer;   
+      color:#212C44;
+      
+      
+}
+button:hover{
+    color:black;
+    
+}
+
+
+
+.button-wrap button{
+   background-color: red;
+    color: black;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 20px;
+    margin: 80px 0;
+ 
+}
+
